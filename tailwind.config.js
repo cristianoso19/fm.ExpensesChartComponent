@@ -5,6 +5,9 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontSize: {
+      base: ['18px', '24px'],
+    },
     extend: {
       fontFamily: {
         sans: ["DM Sans", "sans-serif"],
