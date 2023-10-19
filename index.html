@@ -19,7 +19,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="bg-veryPaleOrange">
+<body class="bg-cream">
   <main class="flex flex-col">
     <section class="mt-16 mx-3 p-5 rounded-lg bg-softRed text-white flex justify-between">
       <div class="inline">
@@ -28,22 +28,29 @@
       </div>
       <figure class="self-center"><img src="./images/logo.svg" class="w-[60px]" alt=""></figure>
     </section>
-    <section>
-      Spending - Last 7 days
+    <section class="mt-5 mx-3 p-5 rounded-lg bg-veryPaleOrange flex flex-col">
+      <p class="text-darkBrown font-bold text-[25px]">Spending - Last 7 days</p>
 
-      mon
-      tue
-      wed
-      thu
-      fri
-      sat
-      sun
-
-      Total this month
-      $478.33
-
-      +2.4%
-      from last month
+      <div class="flex justify-between my-4 text-mediumBrown text-[13px] font-bold">
+        <span>mon</span>
+        <span>tue</span>
+        <span>wed</span>
+        <span>thu</span>
+        <span>fri</span>
+        <span>sat</span>
+        <span>sun</span>
+      </div>
+      <hr>
+      <div class="flex justify-between h-22 my-4">
+        <div class="justify-self-start">
+          <p class="text-mediumBrown">Total this month</p>
+          <p class="font-bold text-darkBrown text-[33px]">$478.33</p>
+        </div>
+        <div class="flex flex-col self-end">
+          <p class="self-end font-bold text-darkBrown">+2.4%</p>  
+          <p class="text-mediumBrown">from last month</p>     
+        </div>
+      </div>
     </section>
   </main>
  
