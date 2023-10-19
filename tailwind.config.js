@@ -7,16 +7,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
+        sans: ["DM Sans", "sans-serif"],
       },
       colors: {
-        primary: "hsl(259, 100%, 65%)",
-        error: "hsl(0, 100%, 67%)",
-        white: "hsl(0, 0%, 100%)",
-        offWhite: "hsl(0, 0%, 94%)",
-        lightGrey: "hsl(0, 0%, 86%)",
-        smokeyGrey: "hsl(0, 1%, 44%)",
-        offBlack: "hsl(0, 0%, 8%)"
+        softRed: "hsl(10, 79%, 65%)",
+        cyan: "hsl(186, 34%, 60%)",
+        darkBrown: "hsl(25, 47%, 15%)",
+        mediumBrown: "hsl(28, 10%, 53%)",
+        cream: "hsl(27, 66%, 92%)",
+        veryPaleOrange: "hsl(33, 100%, 98%)"
       }
     },
   },
