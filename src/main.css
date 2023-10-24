@@ -6,6 +6,9 @@
 }
 
 @layer components {
+    .char-bar {
+        @apply w-full bg-softRed rounded hover:bg-cyan;
+    }
 }
 
 @layer utilities {
