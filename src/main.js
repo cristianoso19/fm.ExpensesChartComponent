@@ -11,3 +11,11 @@ fetch("../data.json")
     });
   })
 
+const day = {
+    day,
+    amount,
+    class: () =>{
+        
+    },
+
+}
