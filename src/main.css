@@ -7,7 +7,7 @@
 
 @layer components {
     .char-bar {
-        @apply w-full bg-softRed rounded hover:bg-cyan;
+        @apply w-full bg-softRed rounded hover:brightness-125;
     }
 }
 
