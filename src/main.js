@@ -11,11 +11,9 @@ fetch("../data.json")
     });
   })
 
-const day = {
-    day,
-    amount,
-    class: () =>{
-        
-    },
+function getToday(){
+  return new Date().toLocaleTimeString("en", { weekday: 'short'}).split(' ')[0].toLowerCase();
 
 }
+
+console.log(getToday());
