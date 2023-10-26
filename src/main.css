@@ -7,7 +7,14 @@
 
 @layer components {
     .char-bar {
-        @apply w-full bg-softRed rounded hover:brightness-125;
+        @apply w-full rounded hover:brightness-125;
+    }
+
+    .char-bar-bg-common {
+        @apply bg-softRed;
+    }
+    .char-bar-bg-today{
+        @apply bg-cyan;
     }
 }
 

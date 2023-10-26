@@ -4,6 +4,11 @@ module.exports = {
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
   ],
+  safelist: [
+    {
+      pattern: /h-[(\d{1,2}%\)]/, 
+    },
+  ],
   theme: {
     fontSize: {
       base: ['18px', '24px'],
