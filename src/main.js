@@ -22,11 +22,8 @@ function getMaxValue(data) {
 }
 
 function setHeightChar(element, char, max) {
-  const percent = Math.round(Math.round((element.amount * 100 / max))/5)*5;
-  console.log(percent);
-  // char.classList.add(`h-[${percent}\%]`)
-  char.classList.add('h-['+percent+'\%]')
-  // char.setAttribute('class', 'percent')
+  const percent = Math.round(element.amount * 100 / max);
+  char.classList.add('h-'+percent+'p')
 }
 
 function setBgChar(element, char){
