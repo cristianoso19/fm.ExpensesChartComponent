@@ -11,10 +11,16 @@ fetch("../data.json")
         char = document.getElementById(idChar)
         setHeightChar(element, char, maxValue);
         setBgChar(element, char);
+        setAmountValue(element, char);
 
     });
   })
 
+function setAmountValue(element, char){
+  const tooltip = char.querySelector('span');
+  console.log(element.amount);
+  tooltip.innerText = element.amount; 
+}
 
 function getMaxValue(data) {
   values =  data.map(item => item.amount);
@@ -22,7 +28,7 @@ function getMaxValue(data) {
 }
 
 function setHeightChar(element, char, max) {
-  const percent = Math.round(element.amount * 100 / max);
+  const percent = Math.round(element.amount * 85 / max);
   char.classList.add('h-'+percent+'p')
 }
 

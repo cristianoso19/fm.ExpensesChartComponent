@@ -7,14 +7,23 @@
 
 @layer components {
     .char-bar {
-        @apply w-full rounded hover:brightness-125;
+        @apply w-full rounded hover:brightness-125 relative;
     }
 
     .char-bar-bg-common {
         @apply bg-softRed;
     }
+
     .char-bar-bg-today{
         @apply bg-cyan;
+    }
+    
+    .char-tooltip {
+        @apply invisible text-center absolute -top-8 m-auto left-0 right-0 rounded shadow p-1 bg-darkBrown text-cream;
+    }
+
+    .char-bar:hover .char-tooltip {
+        @apply visible;
     }
 }
 
