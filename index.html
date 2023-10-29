@@ -15,23 +15,19 @@
   <title>Frontend Mentor | Expenses chart component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body class="bg-cream">
-  <main class="flex flex-col">
-    <section class="mt-16 mx-3 p-5 rounded-lg bg-softRed text-white flex justify-between">
+<body class="min-h-screen flex flex-col justify-center bg-cream">
+  <main class="min-h-full flex flex-col mx-4 md:mt-0 md:mx-auto md:w-[540px]">
+    <section class="md:h-[125px] h-[96px] md:w-full md:mx-0 md:mt-14 mt-1 py-6 px-8 rounded-3xl bg-softRed text-white flex justify-between">
       <div class="inline">
-        <p>My balance</p>
-        <p class="font-bold text-[25px]">$921.48</p>
+        <p class="text-[18px]">My balance</p>
+        <p class="font-bold md:text-[35px] text-[25px]">$921.48</p>
       </div>
-      <figure class="self-center"><img src="./images/logo.svg" class="w-[60px]" alt=""></figure>
+      <figure class="self-center ml-4"><img src="./images/logo.svg" class="md:w-[75px] w-[60px]" alt=""></figure>
     </section>
-    <section class="mt-5 mx-3 p-5 font-bold rounded-lg bg-veryPaleOrange flex flex-col">
-      <p class="text-darkBrown text-[25px]">Spending - Last 7 days</p>
-      <div class="flex justify-between mt-4 h-[200px] text-[11px] sm:text-md">
+    <section class="md:w-full md:mt-6 mt-5 md:h-[513px] md:mx-0 md:py-7 py-4 md:px-10 px-5 md:rounded-3xl rounded-lg bg-veryPaleOrange flex flex-col">
+      <p class="text-darkBrown md:text-[35px] text-[25px] font-bold tracking-tight">Spending - Last 7 days</p>
+      <div class="flex justify-between mt-3 md:h-[195px] h-[185px] text-[11px] sm:text-md">
         <span class="flex flex-col w-[11%]">
           <p class="grow ">
             <div id="char-mon" class="char-bar">
@@ -82,7 +78,7 @@
           </p>
         </span>
       </div>
-      <div class="flex justify-between mt-2 mb-6 text-mediumBrown text-[12px]">
+      <div class="flex justify-between md:mt-2 mt-3 md:mb-8 mb-5 text-mediumBrown text-[14px]">
         <p id="title-mon" class="w-[11%] text-center">mon</p>
         <p id="title-tue" class="w-[11%] text-center">tue</p>
         <p id="title-wed" class="w-[11%] text-center">wed</p>
@@ -92,23 +88,24 @@
         <p id="title-sat" class="w-[11%] text-center">sun</p>
       </div>
       <hr>
-      <div class="flex justify-between h-22 mt-5">
-        <div class="justify-self-start">
-          <p class="text-mediumBrown">Total this month</p>
-          <p class="font-bold text-darkBrown text-[33px]">$478.33</p>
+      <div class="flex justify-between md:h-28 h-16 md:mt-0 mt-7 tracking-tight">
+        <div class="justify-self-center">
+          <p class="md:text-[19px] md:mt-8 font-normal text-mediumBrown">Total this month</p>
+          <p class="font-bold text-darkBrown text-[30px] md:text-[50px]">$478.33</p>
         </div>
-        <div class="flex flex-col self-end">
-          <p class="self-end font-bold text-darkBrown">+2.4%</p>  
+        <div class="flex flex-col self-end md:text-[19px]">
+          <p class="self-end font-bold md:mt-0 mt-5  text-darkBrown">+2.4%</p>  
           <p class="text-mediumBrown">from last month</p>     
         </div>
       </div>
     </section>
   </main>
- 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  <footer class="mx-auto self-end">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
+
   <script src="./src/main.js"></script>
 </body>
 </html>

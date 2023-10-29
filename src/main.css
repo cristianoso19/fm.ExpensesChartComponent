@@ -19,11 +19,11 @@
     }
     
     .char-tooltip {
-        @apply invisible text-center absolute -top-8 m-auto left-0 right-0 rounded shadow p-1 bg-darkBrown text-cream;
+        @apply invisible md:text-[18px] md:font-bold md:w-[71px] text-center absolute md:-top-12 -top-8 m-auto md:h-[39px] md:-left-[0.6rem] left-0 right-0 rounded shadow p-1 bg-darkBrown text-cream;
     }
 
     .char-bar:hover .char-tooltip {
-        @apply visible;
+        @apply visible z-50;
     }
 }
 

@@ -19,7 +19,7 @@ fetch("../data.json")
 function setAmountValue(element, char){
   const tooltip = char.querySelector('span');
   console.log(element.amount);
-  tooltip.innerText = element.amount; 
+  tooltip.innerText = '$' + element.amount; 
 }
 
 function getMaxValue(data) {
