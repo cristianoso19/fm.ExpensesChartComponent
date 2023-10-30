@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github.com](https://your-solution-url.com)
-- Live Site URL: [Watch on Vercel.com](https://your-live-site-url.com)
+- Solution URL: [Github.com](https://github.com/cristianoso19/fm.ExpensesChartComponent)
+- Live Site URL: [Watch on Vercel.com](https://fm-expenses-chart-component-one.vercel.app/)
 
 ## My process
 
