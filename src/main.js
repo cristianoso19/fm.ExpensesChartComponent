@@ -6,13 +6,11 @@ fetch("../data.json")
   .then(function (data) {
     maxValue = getMaxValue(data);
     data.forEach(element => {
-        //console.log(element.amount)
         let idChar = 'char-' + element.day;
         char = document.getElementById(idChar)
         setHeightChar(element, char, maxValue);
         setBgChar(element, char);
         setAmountValue(element, char);
-
     });
   })
 
@@ -42,7 +40,6 @@ function setBgChar(element, char){
 
 function getToday(){
   return new Date().toLocaleTimeString('en', { weekday: 'short'}).split(' ')[0].toLowerCase();
-
 }
 
 
